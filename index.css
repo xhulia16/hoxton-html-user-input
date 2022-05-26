@@ -16,10 +16,10 @@ form {
     border: 3px solid black;
     padding: 25px;
     width: 350px;
-    margin: 30px;
+    margin: 25px;
     grid-gap: 10px;
     font-family: sans-serif;
-    height:fit-content
+    height:fit-content;
  }
  
  .title{
@@ -28,13 +28,14 @@ form {
 
  label{
     display:grid;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     font-size:x-small;
     font-family: sans-serif;
 }
 .checkbox{
     display: inline;
 } 
+
 
 input,
 select,
@@ -62,4 +63,5 @@ button{
     height:25px;
     border-radius: 10px;
     border:none;
+    padding-top: 5px;
 }
