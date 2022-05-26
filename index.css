@@ -13,7 +13,9 @@
 
 form {
     display: grid;
-    border: 3px solid black;
+    border: 0px;
+    box-shadow: 1px 1px 80px 5px  #888888;
+    border-radius: 10px;
     padding: 25px;
     width: 350px;
     margin: 25px;
@@ -32,7 +34,7 @@ form {
 
  label{
     display:grid;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     font-size:x-small;
     font-family: sans-serif;
 }
@@ -41,7 +43,7 @@ form {
 } 
 
 hr{
-    border-top: 1px solid rgb(214, 87, 197);
+    border-top: 1px solid rgb(201, 182, 198);
 }
 
 input,
