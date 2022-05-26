@@ -24,7 +24,11 @@ form {
  
  .title{
     text-align: center;
- }
+    background: -webkit-linear-gradient( rgb(88, 150, 221), rgb(214, 87, 197));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+   
 
  label{
     display:grid;
@@ -36,6 +40,9 @@ form {
     display: inline;
 } 
 
+hr{
+    border-top: 1px solid rgb(214, 87, 197);
+}
 
 input,
 select,
@@ -60,6 +67,7 @@ padding-top: 5px;
 button{
     display: grid;
     width:100%;
+    color: aliceblue;
     height:25px;
     border-radius: 10px;
     border:none;
