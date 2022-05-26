@@ -15,15 +15,41 @@ form {
     display: grid;
     border: 3px solid black;
     padding: 25px;
-    width: max-content;
+    width: 350px;
     margin: 30px;
     grid-gap: 10px;
+    font-family: sans-serif;
  }
  
+ .title{
+    text-align: center;
+ }
+
  label{
     display:grid;
-    padding:5px;
+    padding-bottom: 5px;
+    font-size:smaller;
 }
 .checkbox{
     display: inline;
+} 
+
+input,
+select,
+textarea{
+   border: none;
+}
+
+select{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+    height: fit-content;
+}
+
+.label-message{
+display: grid;
+padding-top: 5px;
 }
